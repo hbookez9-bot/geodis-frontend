@@ -6,6 +6,7 @@ import {
     BarElement, ArcElement, Title, Tooltip, Legend, Filler
 } from 'chart.js';
 import api from '../services/api';
+import Spinner from '../components/Spinner';
 
 Chart.register(
     CategoryScale, LinearScale, PointElement, LineElement,
